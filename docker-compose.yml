@@ -52,8 +52,15 @@ redis:
         - "6379:6379"
 
 memcached:
-    build: ./memcached
-    volumes:
-        - ./memcached/data:/data
-    ports:
-        - "11211:11211"
+  image: memcached
+  volumes:
+    - ./memcached/data:/data
+  ports:
+    - "11211:11211"
+
+#memcached:
+#    build: ./memcached
+#    volumes:
+#        - ./memcached/data:/data
+#    ports:
+#        - "11211:11211"
