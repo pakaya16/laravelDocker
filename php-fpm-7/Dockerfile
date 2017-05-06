@@ -5,10 +5,12 @@ RUN apt-get update && apt-get install -y \
 	libicu-dev \
 	mysql-client \
 	wget \
-	nodejs \
-	npm \
-	vim \
-	git-all \
+#	nodejs \
+#	npm \
+#	vim \
+#	git-all \
+	git \
+	zip \
 #	google-chrome-stable \
 	xvfb \
 	libnss3-dev libxi6 libgconf-2-4 \
